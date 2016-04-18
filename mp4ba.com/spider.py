@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# -*- author: Wd0g  -*-
+
 import requests,re
 from bs4 import BeautifulSoup
 

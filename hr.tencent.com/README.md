@@ -1,6 +1,6 @@
-ÌÚÑ¶ÕĞÆ¸ÅÀ³æ(2016/4/18)
+è…¾è®¯æ‹›è˜çˆ¬è™«(2016/4/18)
 ========= 
-##µÚÒ»²½(ÏÈ»ñÈ¡ÕĞÆ¸µÄ×î´óÒ³Êı)
+##ç¬¬ä¸€æ­¥(å…ˆè·å–æ‹›è˜çš„æœ€å¤§é¡µæ•°)
 ```
 def getMaxPageNum():
     hrUrl = 'http://hr.tencent.com/position.php'
@@ -10,7 +10,7 @@ def getMaxPageNum():
     return maxPageNum
 ```
 
-##µÚ¶ş²½(»ñÈ¡ËùÓĞ¹¤×÷µÄ»ù±¾ĞÅÏ¢)
+##ç¬¬äºŒæ­¥(è·å–æ‰€æœ‰å·¥ä½œçš„åŸºæœ¬ä¿¡æ¯)
 ```
 def getJobList(pageNum):
     jobUrl = 'http://hr.tencent.com/position.php?&start=%d#a' %pageNum
@@ -34,7 +34,7 @@ def getJobList(pageNum):
     return jobList
 ```
 
-##µÚÈı²½(»ñÈ¡Ò»¸ö¹¤×÷µÄÖ°ÔğºÍÒªÇó)
+##ç¬¬ä¸‰æ­¥(è·å–ä¸€ä¸ªå·¥ä½œçš„èŒè´£å’Œè¦æ±‚)
 ```
 def getJobInfo(jobUrl):
     jobUrl = "http://hr.tencent.com/%s" %jobUrl
@@ -50,4 +50,4 @@ def getJobInfo(jobUrl):
     return jobInfo
 ```
 
-***¾ßÌåµÄÇë¿´spider.pyÖĞµÄ´úÂë*
+***å…·ä½“çš„è¯·çœ‹spider.pyä¸­çš„ä»£ç *
